@@ -1,0 +1,103 @@
+<!DOCTYPE html> <!--uses html5-->
+<!--Need 7 more stuff from getbootstrap, including cards and columns-->
+<html>
+    <head>
+        <!--for the browser-->
+        <title>Jaden Wang's Resume</title> <!--To open this html file, go to File Explorer and right click "Open with"->"Google Chrome"-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--meta means nearby, expand to fit device width with a 100% scale; this makes it more mobile friendly-->
+        <style>
+            body{
+                font-family:Arial;
+                text-align:center;
+                background-color: lightgreen;
+                padding-top:10px
+            }
+            h1{
+                font-family:Times New Roman;
+            }
+            h2{
+                font-style:italic;
+                margin: auto;
+                width: 30%;
+                border: 1px solid lightskyblue;
+                background-color: lightgoldenrodyellow;
+                color:blue
+            }
+            p{
+                color: silver;
+            }
+            #main-header{
+                font-size: 300%;
+                margin: auto;
+                width: 30%;
+                border: 1px solid lightseagreen;
+                background-color:paleturquoise
+            }
+            ul{
+                width:400px;
+                margin:0 auto;
+                text-align:left;
+            }
+            .contact{
+                font-family:'Lucida Sans';
+            }
+            .school{
+                font-family:Verdana;
+            }
+            .exp{
+                font-family:'Trebuchet MS';
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="index.html" class="navbar-brand">Jaden Wang</a>
+                <div class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link" style="color:chocolate">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="awards.html" class="nav-link" style="color: red">Awards</a>
+                        </li>
+                        <li class="nav-item active" style="color: black">
+                            <a href="contact.html" class="nav-link"><strong>Contact</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link" style='color:darkgoldenrod'>Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="experience.html" class="nav-link" style="color:forestgreen">Experience</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 id="main-header" class="important-thing">
+                <!--<span style="color:red">J</span><span style="color:orange">a</span><span style="color:yellow">d</span><span style="color:green">e</span><span style="color:blue">n</span><span> </span><span style="color:indigo">W</span><span style="color:violet">a</span><span style="color:pink">n</span><span style="color:white">g</span>-->
+                <span style="color:purple">J</span><span style="color:green">a</span><span style="color:brown">d</span><span style="color:pink">e</span><span style="color:orange">n</span><span> </span><span style="color:blue">W</span><span style="color:red">a</span><span style="color:yellow">n</span><span style="color:aqua">g</span>
+            </h1>
+            <img src="https://static.wikia.nocookie.net/kagerouproject/images/5/59/Shintaro_Profile_%282013-2017%29.png/revision/latest/scale-to-width-down/190?cb=20190705194532.jpg">
+            <p>
+                <h2>Contact:</h2>
+                <form>
+                    <div class="form-group row">                            
+                        <label for="staticEmail" class="col-sm-2 col-form-label" style="margin-left: 400px">Phone Number:</label>
+                        
+                        <input type="text" readonly id="staticNumber" style="width:250px" value="815-815-8158">
+
+                        <label for="staticEmail" class="col-sm-2 col-form-label" style="margin-left: 400px">Email:</label>
+                        <input type="text" readonly id="staticEmail" style="width:250px" value=lightningdancer@Rondo.com>
+
+                        <label for="staticEmail" class="col-sm-2 col-form-label" style="margin-left: 400px">INSPO Email:</label>
+                        <input type="text" readonly id="staticEmail" style="width:250px" value=inspireandpotential@gmail.com>
+
+                        
+                    </div>
+                    <div><a href="mailto:jadenwangtx@gmail.com">Click here to email me directly! </a><span class="badge badge-secondary">Replies guaranteed in 24 hours</span></div> 
+                </form>
+            </p>
+        </div>
+    </body>
+</html>

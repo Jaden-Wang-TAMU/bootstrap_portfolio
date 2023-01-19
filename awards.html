@@ -1,0 +1,117 @@
+<!DOCTYPE html> <!--uses html5-->
+<!--Need 7 more stuff from getbootstrap, including cards and columns-->
+<html>
+    <head>
+        <!--for the browser-->
+        <title>Jaden Wang's Resume</title> <!--To open this html file, go to File Explorer and right click "Open with"->"Google Chrome"-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--meta means nearby, expand to fit device width with a 100% scale; this makes it more mobile friendly-->
+        <style>
+            body{
+                font-family:Arial;
+                text-align:center;
+                background-color: lightgreen;
+                padding-top:10px
+            }
+            h1{
+                font-family:Times New Roman;
+                background-color:aliceblue;
+                color:blueviolet;
+            }
+            h2{
+                font-style:italic;
+                margin: auto;
+                width: 30%;
+                background-color: lightgoldenrodyellow;
+                color:blue
+            }
+            p{
+                color: silver;
+            }
+            #main-header{
+                font-size: 300%;
+                margin: auto;
+                width: 30%;
+                border: 1px solid lightseagreen;
+                background-color:paleturquoise
+            }
+            ul{
+                width:400px;
+                margin:0 auto;
+                text-align:left;
+            }
+            .contact{
+                font-family:'Lucida Sans';
+            }
+            .school{
+                font-family:Verdana;
+            }
+            .exp{
+                font-family:'Trebuchet MS';
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="index.html" class="navbar-brand">Jaden Wang</a>
+                <div class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link" style='color:chocolate'>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="awards.html" class="nav-link" style="color: black"><strong>Awards</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="contact.html" class="nav-link" style="color:blue">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link" style='color:darkgoldenrod'>Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="experience.html" class="nav-link" style="color:forestgreen">Experience</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 id="main-header" class="important-thing">
+                <!--<span style="color:red">J</span><span style="color:orange">a</span><span style="color:yellow">d</span><span style="color:green">e</span><span style="color:blue">n</span><span> </span><span style="color:indigo">W</span><span style="color:violet">a</span><span style="color:pink">n</span><span style="color:white">g</span>-->
+                <span style="color:purple">J</span><span style="color:green">a</span><span style="color:brown">d</span><span style="color:pink">e</span><span style="color:orange">n</span><span> </span><span style="color:blue">W</span><span style="color:red">a</span><span style="color:yellow">n</span><span style="color:aqua">g</span>
+            </h1>
+            <img src="https://static.wikia.nocookie.net/kagerouproject/images/5/59/Shintaro_Profile_%282013-2017%29.png/revision/latest/scale-to-width-down/190?cb=20190705194532.jpg">
+
+            <p>
+                <div class="jumbotron jumbotron-fluid" style="background-color: lightgoldenrodyellow; border: 1px solid lightskyblue;">
+                    <div class="container">
+                      <h2 class="display-4">Awards:</h2>
+                      <ul style="text-decoration:underline;" class="lead">
+                        <li>Member of the 2022 All-State Choir</li>
+                        <li>Qualifier for the 2021 All-State Choir</li>
+                        <li>AP Scholar with Distinction</li>
+                        <li style="width:390px">Certificate of Academic Achievement in KAP Computer Science Data Structures</li>
+                        <li>Member of the 2016-2017 All-Region Choir</li>
+                      </ul>
+                    </div>
+                </div>
+            </p>
+            <p>
+                <h1 style="max-width:600px; margin-left: 250px;">Categories:</h1>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Choir
+                      <span class="badge badge-primary badge-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Computer Science
+                      <span class="badge badge-primary badge-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Academic
+                      <span class="badge badge-primary badge-pill">1</span>
+                    </li>
+                  </ul>
+            </p>
+        </div>
+    </body>
+</html>
